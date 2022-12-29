@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Header from "../components/header";
 import HoverImage from "../components/HoverConheca";
 import Visit from "../components/Visit";
@@ -5,6 +6,8 @@ import styles from "./styles.module.scss";
 export default function Conheca(){
     return (
         <div className={styles.conhecaContent}>
+          <Head><title>Blue Ocean - Conheça</title></Head>
+
           <Header/>
           <div className={styles.content}>
           <HoverImage

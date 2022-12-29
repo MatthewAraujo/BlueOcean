@@ -16,7 +16,10 @@
     max-width:200px;
     max-height: 178px;
     border-radius: 10px;
-
+    @media (min-width: 769px) {
+      max-width: 400px;
+      max-height: 178px;
+    }
   }
   .form{
     display:none;

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Header from "../components/header";
 import HoverPlantas from "../components/HoverPlantas";
 import Visit from "../components/Visit";
@@ -5,6 +6,8 @@ import styles from "./styles.module.scss";
 export default function Plantas() {
     return (
         <div className={styles.container}>
+            <Head><title>Blue Ocean - Plantas</title></Head>
+
           <Header/>
             <div className={styles.plantas}>
                 <HoverPlantas

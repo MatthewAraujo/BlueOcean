@@ -14,6 +14,7 @@ export default function Home() {
   }
   return (
     <div className={styles.containerAll}>
+      <Head><title>Blue Ocean</title></Head>
      <Header/>
      {isVisible && <Cookies closeModal={setIsVisible}/>}
      <div className={styles.container}>

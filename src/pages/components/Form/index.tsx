@@ -19,7 +19,7 @@ export default function Form() {
         <button type="submit">Enviar</button>
       </form>
       <div className={styles.footer}>
-        <p>Direitos reservados a <span>blue ocean</span>.<br></br>Acesse anossa política de privacidade.{' '}</p>
+        <p>Direitos reservados a <span>blue ocean</span>.<br></br>Acesse a nossa política de privacidade.{' '}</p>
         <p>Desenvolvido por</p>
         <Image src="/internit.png" alt="internit" width={82} height={24}     />
       </div>

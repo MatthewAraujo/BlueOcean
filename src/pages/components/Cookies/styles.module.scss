@@ -1,0 +1,31 @@
+.cookie{
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  background-color: var(--blue-200);
+  bottom: 0;
+  left: 0;
+  .cookiesContent{
+    padding: 1rem;
+    text-align: center;
+
+    p{
+      color: var(--white);
+      font-size: 0.9rem;
+      margin-bottom: .5rem;
+      @media (min-width: 769px) {
+        font-size: 1.2rem;
+      }
+    }
+
+    button{
+      background-color: var(--gray-300);
+      color: var(--white);
+      border: transparent;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+  }
+}

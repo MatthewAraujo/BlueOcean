@@ -1,0 +1,17 @@
+.conhecaContent{
+  width: 100%;
+  @media (min-width: 769px) {
+  display: flex;
+  }
+  .content{
+    width: 100%;
+
+    @media (min-width: 769px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+
+    }
+
+  }
+}
